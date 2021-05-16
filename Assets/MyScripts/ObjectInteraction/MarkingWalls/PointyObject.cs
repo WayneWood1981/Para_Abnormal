@@ -54,7 +54,10 @@ public class PointyObject : MonoBehaviour
             temporarySplatMarkHandler.transform.Rotate(Vector3.forward * 90);
             temporarySplatMarkHandler.transform.Translate(Vector3.up * 0.005f);
             
-            
+            if (audioSource)
+            {
+                audioSource.PlayOneShot(hits[Random.Range(0, hits.Length)]);
+            }
 
             
 

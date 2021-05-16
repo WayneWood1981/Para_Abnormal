@@ -34632,24 +34632,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 362271778947999306, guid: fcee60bf92be97f45bcd757fe68c58e9, type: 3}
   m_PrefabInstance: {fileID: 870497718}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &873213806 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2263443984170880642, guid: 13141b56c243ea64e83fa7eb5f65d6b7, type: 3}
-  m_PrefabInstance: {fileID: 1019968493}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &873213813
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873213806}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.17966264, y: 0.012441965, z: 0.41913843}
-  m_Center: {x: -0.031262424, y: 0.004370575, z: 0.066495866}
 --- !u!1001 &882487250
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36935,22 +36917,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2263443984171373218, guid: 13141b56c243ea64e83fa7eb5f65d6b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3690865207646411029, guid: 13141b56c243ea64e83fa7eb5f65d6b7, type: 3}
-      propertyPath: m_Volume
-      value: 0.634
-      objectReference: {fileID: 0}
-    - target: {fileID: 3690865207646411029, guid: 13141b56c243ea64e83fa7eb5f65d6b7, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3690865207646411029, guid: 13141b56c243ea64e83fa7eb5f65d6b7, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4159722216439413358, guid: 13141b56c243ea64e83fa7eb5f65d6b7, type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -72920,27 +72886,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &1522484278 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5655441781520998552, guid: 7ddbd6f40ac92d442b02e69682b47879, type: 3}
-  m_PrefabInstance: {fileID: 1837928822}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1522484282
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522484278}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &1525911485
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83043,14 +82988,6 @@ PrefabInstance:
     - target: {fileID: 5655441781520998552, guid: 7ddbd6f40ac92d442b02e69682b47879, type: 3}
       propertyPath: m_Name
       value: KitchenChair_01 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5655441781520998552, guid: 7ddbd6f40ac92d442b02e69682b47879, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 7468229372085879902, guid: 7ddbd6f40ac92d442b02e69682b47879, type: 3}
-      propertyPath: m_Convex
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ddbd6f40ac92d442b02e69682b47879, type: 3}

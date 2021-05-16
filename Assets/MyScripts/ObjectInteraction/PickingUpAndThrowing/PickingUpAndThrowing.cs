@@ -223,7 +223,7 @@ public class PickingUpAndThrowing : MonoBehaviour
     void PlaceInsideTransform(Transform item)
     {
         
-         item.transform.position = Vector3.MoveTowards(item.transform.position, transform.position, pickupSpeed * Time.deltaTime);
+        item.transform.position = Vector3.MoveTowards(item.transform.position, transform.position, pickupSpeed * Time.deltaTime);
         item.transform.Rotate(1.0f, 1.0f, 1.0f, Space.World);
         nearestObj.GetComponent<Rigidbody>().useGravity = false;
 
@@ -233,6 +233,8 @@ public class PickingUpAndThrowing : MonoBehaviour
         {
             
             itemIsBeingHeld = true;
+            
+            
         }
         
         
